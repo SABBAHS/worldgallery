@@ -18,6 +18,9 @@ body {
 
 header {
     background-color: lightcoral;
+    h1 {
+        font-family: 'oswald' sans-serif;
+    }
 }
 /* make main element take up surplas space and push footer down*/
 
