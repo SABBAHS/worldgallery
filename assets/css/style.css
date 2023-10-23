@@ -3,13 +3,22 @@
     margin: 0;
     box-sizing:border-box;
 }
+/*general body*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 
 header {
     background-color: lightcoral;
 }
+/* make main element take up surplas space and push footer down*/
 
 main {
     background-color: lightblue;
+    flex: 1 0 auto;
 }
 
 footer {
