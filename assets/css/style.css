@@ -52,10 +52,6 @@ main {
     margin-top: 47px;
 }
 
-#social-networks {
-    display: inline-block;
-
-}
 
 #menu {
     letter-spacing: 4px;
@@ -130,6 +126,20 @@ nav {
       line-height: 75px;
       margin: 0 0.5rem;
   }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
+}
 
 /* Main content */
 main {
