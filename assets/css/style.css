@@ -52,8 +52,9 @@ main {
     margin-top: 47px;
 }
 
-footer {
-    background-color: orange;
+#social-networks {
+    display: inline-block;
+
 }
 
 #menu {
