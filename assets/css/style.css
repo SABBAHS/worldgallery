@@ -95,7 +95,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/running-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -244,15 +244,14 @@ main {
     }
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1200px) {    
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits>div {
+    #benefits > div {
         flex: 1;
     }
 
@@ -264,11 +263,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental>div {
+    #benefits-mental > div {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #benefits-physical > div {
         align-self: flex-end;
     }
 }
