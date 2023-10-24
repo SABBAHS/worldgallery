@@ -31,6 +31,7 @@ header {
 
 }
 
+
 h1 {
     font-family: 'oswald' sans-serif;
     text-transform: uppercase;
@@ -86,6 +87,7 @@ nav {
 /*nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
+   
 }
 
 .nav-toggle-label {
@@ -107,7 +109,13 @@ nav {
     #menu {
         display: flex;
     }
-
+    #checkbox {
+        display: none; 
+        visibility: hidden;
+        opacity: 0;
+        position: absolute; 
+        left: -9999px;
+    }
     #menu>li {
         padding-left: 1rem;
     }
